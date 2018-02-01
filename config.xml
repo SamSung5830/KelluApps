@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Kellu-botonChat</name>
+    <description>
+        A blank PhoneGap app.
+    </description>
+    <author email="support@phonegap.com" href="http://phonegap.com">
+        PhoneGap Team
+    </author>
+    <content src="index.html" />
+    <access origin="https://kellu-chatweb.mybluemix.net/" />
+    <engine name="android" spec="~7.0.0" />
+
+    <!--para poder usar inAppBrowser en phonegap build-->
+    <gap:plugin name="org.apache.cordova.core.inappbrowser" />
+
+    <!--ejecutar en un Iframe-->
+    <plugin name="cordova-plugin-whitelist" />
+</widget>

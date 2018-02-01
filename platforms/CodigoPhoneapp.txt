@@ -1,0 +1,20 @@
+  <body bgcolor="black">
+      <!-- link kellu chat
+      //https://kellu-chatweb.mybluemix.net/
+      -->
+
+        <center>
+        <font color="orange">
+          <h1>Sistema <font color="white">Kellu</font> </h1>
+            <b><p>Asistente de Mesa de Ayuda IT</p></b>
+              Pulse el botón <b>"Acceder"</b> para conocer el estado de un ticket
+              <br>y también desbloquear su cuenta si está bloqueada</br>
+
+<!--           prueba de botones con link
+              <br> <button>Acceder</button> </br>
+              <input type="button" value="Kellu" onclick="window.location.href('//https://kellu-chatweb.mybluemix.net/');"/>
+-->
+        </font>
+        </center>
+        <script type="text/javascript" src="cordova.js"></script>
+    </body>
