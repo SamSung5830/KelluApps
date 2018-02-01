@@ -11,9 +11,6 @@
     <access origin="https://kellu-chatweb.mybluemix.net/" />
     <engine name="android" spec="~7.0.0" />
 
-    <!--para poder usar inAppBrowser en phonegap build-->
-    <gap:plugin name="org.apache.cordova.core.inappbrowser" />
-
-    <!--ejecutar en un Iframe-->
+      <!--ejecutar en un Iframe-->
     <plugin name="cordova-plugin-whitelist" />
 </widget>
