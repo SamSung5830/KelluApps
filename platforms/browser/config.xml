@@ -9,5 +9,4 @@
     </author>
     <content src="index.html" />
     <access origin="https://kellu-chatweb.mybluemix.net/" />
-    <gap:plugin name="org.apache.cordova.core.inappbrowser" />
 </widget>
